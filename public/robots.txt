@@ -1,0 +1,11 @@
+# Autoriser tous les robots
+User-agent: *
+Allow: /
+
+# Bloquer les pages admin
+User-agent: *
+Disallow: /admin/
+Disallow: /auth/
+
+# Sitemap
+Sitemap: https://comptoir-art-jewelry.fr/sitemap.xml
